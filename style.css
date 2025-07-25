@@ -30,7 +30,7 @@ img {
     text-align: center;
 }
 
-h1, p {
+h1, p, .attribution {
     margin: 0;
     padding: 0;
     font-family: "Outfit", sans-serif;
