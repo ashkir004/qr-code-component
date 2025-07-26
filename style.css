@@ -2,7 +2,6 @@
 body, main {
     background-color: hsl(212, 45%, 89%);    
     height: 100vh;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,8 +9,7 @@ body, main {
 }
 
 .card {
-    max-width: 375px;
-    max-height: fit-content;
+    max-width: 20rem;
     padding: 1em;
     background-color: hsl(0, 0%, 100%);
     border-radius: 1em;
@@ -30,7 +28,7 @@ img {
 .card-body {
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 2em;
+    padding: 0;
     text-align: center;
     font-size: 1rem;
 }
@@ -43,7 +41,7 @@ h1, p, .attribution {
 
 
 h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: hsl(218, 44%, 22%);
     margin: .5em 0;
     font-weight: 900;
@@ -51,7 +49,7 @@ h1 {
 }
 
 p {
-    font-size: .85rem;
+    font-size: 1.1rem;
     color: hsl(216, 15%, 48%);
     margin: 0 0 2em;
     line-height: 1.5em;
@@ -72,13 +70,18 @@ p {
 }
 
 @media screen and (min-width: 376px) {
+
+    .card-body {
+        margin: 0 auto;
+        padding: 0;
+    }
     
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
     
     p {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
     
     .attribution {
