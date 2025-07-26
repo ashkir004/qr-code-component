@@ -1,8 +1,8 @@
 
 body, main {
     background-color: hsl(212, 45%, 89%);    
-    margin: 0 auto;
     height: 100vh;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,6 +11,7 @@ body, main {
 
 .card {
     max-width: 375px;
+    max-height: fit-content;
     padding: 1em;
     background-color: hsl(0, 0%, 100%);
     border-radius: 1em;
