@@ -72,7 +72,7 @@ My continued development will focus on building more complex layouts, improving 
 
 ## Author
 
-- Frontend Mentor - [@ashkir004](https://www.frontendmentor.io/profile/ashkir004)
+- Ahmed Ashkir [@ashkir004](https://www.frontendmentor.io/profile/ashkir004)
 
 ## Acknowledgments
 
