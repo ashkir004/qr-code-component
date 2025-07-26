@@ -24,11 +24,15 @@ img {
     height: auto;
     display: block;
     border-radius: 1em;
+    margin-block-end: 2em;
 }
 
 .card-body {
+    max-width: 240px;
+    margin: 0 auto;
     padding: 0 2em;
     text-align: center;
+    font-size: 1rem;
 }
 
 h1, p, .attribution {
@@ -39,7 +43,7 @@ h1, p, .attribution {
 
 
 h1 {
-    font-size: 24px;
+    font-size: 1.2rem;
     color: hsl(218, 44%, 22%);
     margin: .5em 0;
     font-weight: 900;
@@ -47,7 +51,7 @@ h1 {
 }
 
 p {
-    font-size: 18px;
+    font-size: .85rem;
     color: hsl(216, 15%, 48%);
     margin: 0 0 2em;
     line-height: 1.5em;
@@ -55,10 +59,10 @@ p {
 }
 
 .attribution {
-    font-size: 12px;
+    font-size: .6rem;
     color: hsl(216, 15%, 48%);
     text-align: center;
-    margin-block-end: 2em;
+    margin-block-end: 3em;
 }
 
 .attribution a {
